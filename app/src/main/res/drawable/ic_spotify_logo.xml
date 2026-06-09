@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Spotify Green Circle Background -->
+    <path
+        android:fillColor="#1ED760"
+        android:pathData="M 50 50 m -44 0 a 44 44 0 1 0 88 0 a 44 44 0 1 0 -88 0" />
+
+    <!-- Three sound wave arcs rotated by search-verified tilt angle -->
+    <group
+        android:pivotX="51"
+        android:pivotY="51"
+        android:rotation="-8">
+        <!-- Top Wave (thickest and widest) -->
+        <path
+            android:strokeColor="#050505"
+            android:strokeWidth="6.8"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M 23,34 Q 50,19 77,34" />
+
+        <!-- Middle Wave -->
+        <path
+            android:strokeColor="#050505"
+            android:strokeWidth="6.0"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M 27,49 Q 50,35 73,49" />
+
+        <!-- Bottom Wave (thinnest and shortest) -->
+        <path
+            android:strokeColor="#050505"
+            android:strokeWidth="5.0"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M 32,64 Q 50,51 68,64" />
+    </group>
+</vector>
